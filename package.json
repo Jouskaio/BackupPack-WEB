@@ -1,0 +1,23 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "Web interface of the Backup Pack project: a connected bag with several tools integrated (front camera, GPS location, detection for object forgotten)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jouskaio/BackupPack-WEB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jouskaio/BackupPack-WEB/issues"
+  },
+  "homepage": "https://github.com/Jouskaio/BackupPack-WEB#readme",
+  "devDependencies": {
+    "sass": "^1.62.1"
+  }
+}
