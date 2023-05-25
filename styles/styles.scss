@@ -1,3 +1,11 @@
-html {
-  background: red;
-}
+// Protons
+@import "protons/reset";
+@import "protons/mixins";
+@import "protons/properties";
+@import "protons/fonts";
+
+// Atoms
+@import "atoms/text";
+
+// Layout
+@import "layout/home";
