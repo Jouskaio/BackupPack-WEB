@@ -1,4 +1,28 @@
 .l-home {
-  padding-left: 16px;
-  padding-right: 16px;
+  &__o-divTags {
+    display: flex;
+    flex-wrap: nowrap;
+    & > button {
+      margin-right: 24px;
+    }
+  }
+
+  &__a-title {
+    margin-top: 50px;
+    margin-bottom: 60px;
+  }
+
+  &__a-titleSection {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: var(--primary-color-light)
+  }
+
+  &__o-divWidgets {
+    display: flex;
+    flex-wrap: wrap;
+    & > nav {
+      padding-right: 30px;
+    }
+  }
 }

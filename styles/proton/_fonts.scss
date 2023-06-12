@@ -1,0 +1,52 @@
+:root {
+  //--font-family-accent: 'Work Sans', sans-serif;
+  --font-family-main: 'SF Pro Text', sans-serif;
+  //--font-family-stylized: serif;
+
+
+  --font-size-XL: 60px;
+  --font-size-L: 40px;
+  --font-size-M: 30px;
+  --font-size-S: 25px;
+  --font-size-XS: 20px;
+
+  --font-weight-bold: bold;
+  --font-weight-medium: normal;
+  --font-weight-demiBold: 600;
+  --font-weight-lighter: 100;
+}
+
+
+@font-face {
+  font-family: "SF Pro Text", sans-serif;
+  src: local("../pubic/fonts/SF-Pro-Text-Regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Pro Text", sans-serif;
+  src: local("../pubic/fonts/SF-Pro-Text-RegularItalic.otf");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "SF Pro Text", sans-serif;
+  src: local("../pubic/fonts/SF-Pro-Text-Semibold.otf");
+  font-weight: 600;
+}
+
+
+@font-face {
+  font-family: "SF Pro Text", sans-serif;
+  src: local("../pubic/fonts/SF-Pro-Text-Bold.otf");
+  font-weight: bold;
+}
+
+
+@font-face {
+  font-family: "SF Pro Text", sans-serif;
+  src: local("../pubic/fonts/SF-Pro-Text-Thin.otf");
+  font-weight: 100;
+}

@@ -1,0 +1,30 @@
+// TITLES
+.a-textH1 {
+  font-family: var(--font-family-main);
+  font-size: var(--font-size-XL);
+  color: var(--lightest-color);
+  font-weight: bold;
+}
+
+.a-textH2 {
+  font-family: var(--font-family-main);
+  font-size: var(--font-size-L);
+  color: var(--lightest-color);
+  font-weight: bold;
+}
+
+.a-textH6 {
+  font-family: var(--font-family-main);
+  font-size: var(--font-size-M);
+  line-height: calc(var(--font-size-M) * 1.5);
+  color: inherit;
+}
+
+// TEXT
+.a-textDefault {
+  font-family: var(--font-family-main);
+  font-size: var(--font-size-L);
+  line-height: calc(var(--font-size-L) * 1.5);
+  color: var(--lightest-color);
+  text-decoration: none;
+}

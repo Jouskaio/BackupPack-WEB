@@ -1,11 +1,19 @@
 // Protons
-@import "protons/reset";
-@import "protons/mixins";
-@import "protons/properties";
-@import "protons/fonts";
+@import "proton/reset";
+@import "proton/fonts";
+@import "proton/colors";
+@import "proton/mixins";
+@import "proton/properties";
 
 // Atoms
-@import "atoms/text";
+@import "atom/text";
+
+// Molecule
+@import "molecule/buttons";
+@import "molecule/widget";
+
+// Organism
+@import "organism/footer";
 
 // Layout
 @import "layout/home";

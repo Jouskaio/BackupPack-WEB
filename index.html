@@ -6,20 +6,41 @@
     <link rel="icon" href="public/icons/logo.png" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="./public/script/script.js"></script>
+    <script src="./public/script/widget_battery.js"></script>
     <link rel="stylesheet" href="./styles/styles.scss">
 </head>
 <body class="l-home">
-    <h1 class="a-textH1">Dashboard</h1>
+    <h1 class="a-textH1 l-home__a-title">Dashboard</h1>
     <p class="a-textDefault">Welcome to our smart bag web application! With our cutting-edge features, your bag becomes an essential companion.</p>
     <p class="a-textDefault">Equipped with a camera, GPS tracking, and weight verification, you can keep an eye behind you, stay connected, and ensure you never forget anything again.</p>
     <section class="l-home__o-reports">
-        <h2 class="a-textH2">Reports</h2>
+        <h2 class="a-textH2 l-home__a-titleSection">Reports</h2>
         <nav class="l-home__o-divTags">
             <button class="m-tag">
-                Weekly
+                <h6 class="a-textH6">Weekly</h6>
+            </button>
+            <button class="m-tag">
+                <h6 class="a-textH6">Monthly</h6>
+            </button>
+            <button class="m-tag">
+                <h6 class="a-textH6">Yearly</h6>
             </button>
         </nav>
     </section>
+    <section>
+        <h2 class="a-textH2 l-home__a-titleSection">Widgets</h2>
+        <div class="l-home__o-divWidgets">
+            <nav class="m-widget">
+                <canvas id="widget_battery"></canvas>
+            </nav>
+            <a href="widgets/location/location.html" class="m-link"><p class="a-textDefault">Location</p></a>
+            <a href="widgets/scale/scale.html" class="m-link"><p class="a-textDefault">Scale</p></a>
+            <a href="widgets/camera/camera.html" class="m-link"><p class="a-textDefault">Camera</p></a>
+        </div>
+    </section>
+
+    <footer class="o-footer">
+        <nav class="o-footer__a-solidBackground"></nav>
+    </footer>
 </body>
 </html>

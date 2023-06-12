@@ -1,0 +1,22 @@
+.m-widget {
+  //width: 40%;
+  //height: 40%;
+}
+
+
+.m-link {
+  width: 300px;
+  height: 300px;
+  border-radius: 50px;
+  background: var(--primary-color-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid var(--primary-color-light);
+  &:hover {
+    border: 2px solid var(--lightest-color);
+    background: var(--darkest-color);
+  }
+}
