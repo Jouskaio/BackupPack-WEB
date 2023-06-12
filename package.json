@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel index.html",
-    "build": "parcel build index.html --out-dir /var/www/html"
+    "build": "parcel build index.html --out-dir /var/www/html",
+    "serve": "parcel serve --host 0.0.0.0 index.html"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/Jouskaio/BackupPack-WEB#readme",
   "devDependencies": {
+    "parcel-bundler": "^1.12.5",
     "sass": "^1.62.1"
   },
   "dependencies": {
