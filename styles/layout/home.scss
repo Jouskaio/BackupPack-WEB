@@ -20,9 +20,7 @@
 
   &__o-divWidgets {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    & > nav {
-      padding-right: 30px;
-    }
   }
 }

@@ -6,8 +6,54 @@
     <link rel="icon" href="../../public/icons/logo.png" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <link rel="stylesheet" href="../../styles/styles.scss">
+    <script src="../../public/script/widget_map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDni8RhgjZDAAT7qqd5tdRrh9HU4tW9x-c&callback=initMap"></script>
 </head>
 <body>
-
+<h1 class="a-textH1 l-location__a-title">Location</h1>
+<section class="l-location__o-metaSection">
+    <div class="l-location__o-meta">
+        <div class="l-location__m-divMeta">
+            <div class="l-location__m-meta">
+                <h2 class="a-textH2">State :</h2>
+                <p class="a-textDefault">France</p>
+            </div>
+            <div class="l-location__m-meta">
+                <h2 class="a-textH2">City :</h2>
+                <p class="a-textDefault">Paris (75012)</p>
+            </div>
+            <div class="l-location__m-meta">
+                <h2 class="a-textH2">Address :</h2>
+                <p class="a-textDefault">21 rue Érard</p>
+            </div>
+        </div>
+        <div class="l-location__m-divMeta">
+            <div class="l-location__m-meta">
+                <h2 class="a-textH2">Latitude :</h2>
+                <p class="a-textDefault">48.862725</p>
+            </div>
+        </div>
+    </div>
+    <div class="l-location__o-meta">
+        <div class="l-location__m-divMeta">
+            <div class="l-location__m-meta">
+                <h2 class="a-textH2">Proximity :</h2>
+                <p class="a-textDefault">1000 m</p>
+            </div>
+        </div>
+        <div class="l-location__m-divMeta">
+            <div class="l-location__m-meta">
+                <h2 class="a-textH2">Longitude :</h2>
+                <p class="a-textDefault">2.287592</p>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="l-location__o-map"></div>
+<footer class="o-footer">
+    <nav class="o-footer__a-solidBackground">
+        <a href="/" class="o-footer__a-home"><img src="../../public/icons/home.svg"></a>
+    </nav>
+</footer>
 </body>
 </html>

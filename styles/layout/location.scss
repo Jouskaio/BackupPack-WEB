@@ -1,0 +1,38 @@
+.l-location {
+  &__a-title {
+    margin-top: 50px;
+    margin-bottom: 60px;
+  }
+  &__o-metaSection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
+  &__o-meta {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  &__m-divMeta:first-child {
+    flex: 1;
+    margin-bottom: 30px;
+  }
+  &__m-meta {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: baseline;
+    & > h2 {
+      margin-right: 8px;
+    }
+  }
+
+  &__o-map {
+    height: 1500px; /* The height is 400 pixels */
+    width: 100%; /* The width is the width of the web page */
+  }
+}
