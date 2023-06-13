@@ -35,4 +35,17 @@
     height: 1500px; /* The height is 400 pixels */
     width: 100%; /* The width is the width of the web page */
   }
+
+  &__a-directionPannel {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50px;
+    margin-top: 24px;
+    font-size: var(--font-size-L);
+    width: calc(100% - 32px);
+    padding: 16px;
+    padding-top: 30px;
+    background: var(--container-color);
+    margin-bottom: 120px;
+  }
 }
