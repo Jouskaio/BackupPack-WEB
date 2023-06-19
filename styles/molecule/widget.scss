@@ -22,3 +22,42 @@
     background: var(--darkest-color);
   }
 }
+
+.m-widgetItem {
+  width: 300px;
+  height: 300px;
+  border-radius: 50px;
+  background: rgba(238, 238, 237, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  border: 12px solid rgba(179, 180, 173, 1);
+  font-size: var(--font-size-L);
+  color: rgba(179, 180, 173, 1);
+  &:hover {
+    border: 2px solid var(--lightest-color);
+    background: var(--darkest-color);
+  }
+  &__item {
+    background: var(--accent-color);
+    border: 12px solid var(--accent-color);
+    color: var(--darkest-color);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    &:hover, &:checked {
+        border: 12px solid rgba(147, 227, 145, 1);
+        background: rgba(147, 227, 145, 1);
+    }
+    &--emoticon {
+      font-size: 90px;
+      margin-bottom: 16px;
+    }
+
+    &--emoticon {
+      font-weight: var(--font-weight-lighter);
+    }
+  }
+}
