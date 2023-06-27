@@ -52,6 +52,63 @@
 
   &__buttonItem {
     font-size: 90px;
+  }
 
+  &__m-form {
+    display: flex;
+    flex-direction: column;
+    color: var(--lightest-color);
+    font-size: var(--font-size-M);
+    font-family: var(--font-family-main);
+  }
+
+  &__m-formLabel {
+    padding-bottom: 16px;
+    padding-left: 16px;
+  }
+
+  &__m-formInput {
+    margin-bottom: 30px;
+    height: 60px;
+    border-radius: 15px;
+    font-size: var(--font-size-M);
+    width: 50%;
+    border: 3px solid rgba(179, 180, 173, 1);
+    background: none;
+
+    &--emoji {
+      margin-top: 24px;
+      max-width: 200px;
+      height: 200px;
+      width: 200px;
+      max-height: 200px;
+      background: none;
+      text-align: center;
+      font-size: 90px;
+      border: 3px solid rgba(179, 180, 173, 1);
+    }
+  }
+
+  &__m-formDivWeigh {
+    margin: 0 auto;
+    font-size: var(--font-size-L);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center;
+    margin-bottom: 60px;
+    & > *:first-child {
+      padding-right: 8px;
+      font-weight: var(--font-weight-bold);
+    }
+  }
+
+  &__m-formButton {
+    height: 60px;
+    font-size: var(--font-size-L);
+  }
+
+  &__m-formDivButton {
+    width: 50%;
   }
 }
